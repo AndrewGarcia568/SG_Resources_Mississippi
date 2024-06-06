@@ -49,18 +49,9 @@ for i in data_table:
     if rows != ['']:
         main_data.append(rows)
 
-print (header_data)
-print (main_data)
-
 #writing to csv
 with open('SGResourcesMississippi-OperationallyAvailableCapacity-' + month + '-' + day + '-' + year + ".csv", 'w', encoding = 'UTF8') as f:
     writer = csv.writer(f)
     writer.writerow(header_data)
     for i in main_data:
         writer.writerow(i)
-"""
-data = soup.select("tbody tr")
-for i in data:
-    for j in i.select("td"):
-        print (remove(j.get_text()))
-"""
