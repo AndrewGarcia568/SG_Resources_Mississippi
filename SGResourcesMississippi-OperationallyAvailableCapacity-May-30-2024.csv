@@ -1,0 +1,8 @@
+TSP Name:,"SG Resources Mississippi, L.L.C.",TSP:,617516435,Posting Date/Time:,"May 30, 2024 10:05 PM CT",Eff Gas Day/Time:,"May 30, 2024 09:00 AM CT",Cycle Indicator Description:,Intraday 3,Capacity Type Description,Operationally available capacity
+Location Name,Loc,Loc Zn,Loc PurpDesc,Loc/QTI,Flow Ind,All QtyAvail,DesignCapacity,OperatingCapacity,TSQ,OAC,ITIndicator,QtyReason
+Destin,020291/011299,N/A,Storage Area,STQ,BD,Y,"600,000","600,000","182,751","417,249",,,
+Facility,na,NA,Storage Area,STQ,,Y,"52,200,000","26,200,000","21,433,833","4,766,167",,,
+FGT_MBL,1005320,N/A,Storage Area,STQ,BD,Y,0,"319,418",0,"319,418",,,
+FGT_Z3,78461/78460,N/A,Storage Area,STQ,BD,Y,"1,500,000","1,500,000","-62,632","1,437,368",,,
+SESH,83109/83009,N/A,Storage Area,STQ,BD,Y,"600,000","433,000","13,656","419,344",,,
+Transco 4A,9003942,N/A,Storage Area,STQ,BD,Y,"600,000","600,000","4,923","595,077",,,
