@@ -1,14 +1,13 @@
 Python 3.8.5
 
 Script Library Requirements
-1. requests-html
+1. requests
 2. bs4
 3. csv
 
 To install above requirements
 1. open cmd or system console
-2. "pip install requests-html"
-*Note, the first time you ever run the render() method which is used in the script, it will download Chromium into your home directory (e.g. ~/.pyppeteer/). This only happens once.
+2. "pip install requests"
 3. "pip install bs4"
 4. "pip install csv"
 
