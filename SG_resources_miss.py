@@ -5,7 +5,7 @@ Created on Wed June 06 11:05:05 2024
 @author: Micah Angelo Bacani
 """
 
-from requests_html import HTMLSession
+import requests
 from bs4 import BeautifulSoup as bs
 import csv
 
@@ -20,16 +20,14 @@ day = "30"
 year = "2024"
 url = base_url + month + "+" + day + "%2C+" + year + "&type=1"
 
-# creating html session to parse and load scripts
-session = HTMLSession()
-page = session.get(url)
-page.html.render()
+# requests implementation
+page = requests.get(url)
 
 # create soup object for the whole rendered page
-soup = bs(page.html.html, 'html.parser')
+soup = bs(page.content, 'html.parser')
 
 # get all table objects in the page
-tables = soup.findAll('tbody')
+tables = soup.findAll('table')
 
 # get header data
 header_table = tables[0].findAll("tr")
